@@ -1,0 +1,17 @@
+{
+  "name": "front-end-boilerplate",
+  "version": "0.0.0",
+  "authors": [
+    "Luke Askew <lukeaskew@gmail.com>"
+  ],
+  "description": "Starting point for front-end projects",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
