@@ -1,7 +1,6 @@
 # Gulp Static Asset Workflow
 
-> A Gulp.js workflow for developing static assets
-
+> A Gulp.js workflow for JavaScript, Sass, and image optimization.
 
 ## Quick Start
 
@@ -16,11 +15,15 @@ $ npm start
 - Sass [compilation](https://github.com/sass/node-sass), [vendor prefixing](https://github.com/postcss/autoprefixer), and [minification](https://github.com/css/csso)
 - JavaScript [module bundling](https://github.com/substack/node-browserify) and [optimization](https://github.com/mishoo/UglifyJS2)
 - Image [optimization](https://github.com/imagemin/imagemin)
-- Local development with real-time compiliation
+- Local development environment with real-time compiliation
 - File size reporting
 - Code formatting rules ([EditorConfig](http://editorconfig.org/) and [JS Beautifier](https://github.com/beautify-web/js-beautify))
 
 ## Usage
+
+### Requirements
+
+- [Node.js](http://nodejs.org)
 
 ### Local Development
 
