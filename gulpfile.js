@@ -21,14 +21,14 @@ var uglify = require('gulp-uglify');
 var config = {
 	dev: gutil.env.dev,
 	src: {
-		images: './src/images/**/*',
-		scripts: './src/scripts/main.js',
-		styles: './src/styles/main.scss'
+		images: 'images/**/*',
+		scripts: './scripts/src/main.js',
+		styles: 'styles/src/main.scss'
 	},
 	dest: {
-		images: 'dist/images',
-		scripts: 'dist/scripts',
-		styles: 'dist/styles'
+		images: 'images',
+		scripts: 'scripts',
+		styles: 'styles'
 	},
 	browsers: ['last 1 version']
 };

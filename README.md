@@ -5,7 +5,7 @@
 
 ## Quick Start
 
-Download, include in your project, and run:
+[Download](https://github.com/LukeAskew/gulp-static-asset-workflow/archive/master.zip), include in your project, and run:
 
 ```
 $ npm start
