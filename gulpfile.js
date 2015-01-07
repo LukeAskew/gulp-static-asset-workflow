@@ -100,9 +100,9 @@ gulp.task('styles', function () {
 
 // watch
 gulp.task('watch', function () {
-	gulp.watch('src/images/**/*', ['images']);
-	gulp.watch('src/scripts/**/*', ['scripts']);
-	gulp.watch('src/styles/**/*', ['styles']);
+	gulp.watch('images/**/*', ['images']);
+	gulp.watch('scripts/src/**/*', ['scripts']);
+	gulp.watch('styles/src/**/*', ['styles']);
 });
 
 
